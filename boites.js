@@ -1,9 +1,3 @@
-if (confirm('hey ?')) {
-    
-    alert('ok');
+const age = prompt('entrer votre age :');
 
-}else{
-  
-    alert('annulation');
-
-}
+alert('Bonjour vous avez ' + age +'ans.');

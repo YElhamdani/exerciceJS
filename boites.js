@@ -1,5 +1,5 @@
-function bonjour() {
-    alert("bonjour à tous !");
+function alert1(nom) {
+    alert("Bonjour ["+ nom +"]")
 }
 
-bonjour();
+alert1("younes");

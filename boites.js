@@ -1,10 +1,7 @@
-let nombreUn = 4, nombreDeux = 70;
+// let fAno = ()=>{
+//     console.log("Je découvre les fonctions anonymes !");
+// }
 
-function calculatrice(nbr1,nbr2) {
-    
-    let result = nbr1 + nbr2;
-    console.log(result);
+// fAno();
 
-}
-
-calculatrice(nombreUn, nombreDeux);
+(()=>{console.log("Je découvre les fonctions anonymes !");})();

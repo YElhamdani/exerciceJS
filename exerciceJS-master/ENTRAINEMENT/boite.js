@@ -1,9 +1,9 @@
-let x = 5;
-// condition ternaire
-[x > 3] ? [console.log("superieur")] :  [console.log("inferrieur")];
-// condition ternaire
-[x > 3] ? [console.log("superieur")] :  [console.log("inferrieur")];
-// condition ternaire
-[x > 3] ? [console.log("superieur")] :  [console.log("inferrieur")];
+function timer(secondes) 
+{  
+if (secondes > 0) {
+    console.log(secondes);
+    timer(secondes - 1);
+}
+}
 
-console.log("")
+timer(10);

@@ -20,7 +20,7 @@ let monTableauAssociatif = {
 monTableauAssociatif['nationalite'] = 'Américaine';
 console.log(monTableauAssociatif);
 
-// suppression d'element
+// suppression d'element.
 
 let monTableau = ['un', 'deux', 'trois', 'quatre'];
 monTableau.pop(); // supprime le dernier élément

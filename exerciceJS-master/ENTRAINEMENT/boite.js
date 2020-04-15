@@ -1,9 +1,16 @@
-function timer(secondes) 
-{  
-if (secondes > 0) {
-    console.log(secondes);
-    timer(secondes - 1);
-}
-}
+let monTableau = ['un', 'deux', 'trois', 'quatre'];
+monTableau.splice(1, 0, 'random', 'pie');
+// console.log(monTableau);
 
-timer(10);
+let monTableau2D = [
+    ['Mark', 'Jeff', 'Bill'],
+    ['Zuckerberg', 'Bezos', 'Gates']
+];
+monTableau2D.splice(2, 0, ['30', '45', '70']);
+console.log(monTableau2D);
+
+let monTableauAssociatif = {
+    'prenom' : 'Mark',
+    'nom'    : 'Zuckerberg',
+    'poste'  : 'PDG de Facebook'
+};
